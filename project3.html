@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/table.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>head </title>
+        </head>
+        <body>
+            <center>
+            <table>
+                <form name="frm"></form>
+                    <tbody><tr height="70px" width="1000px" bgcolor="orange">
+                    <th colspan="4">RESUME</th>
+                    </tr>
+                    <tr>
+                        <td width="150px">User Name:</td>
+                        <td><input type="text" name="n" placeholder="enter the name"> </td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password" name="p" placeholder="enter your Passwprd"></td>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" name="n"></td>
+                    </tr>
+                    <tr>
+                        <td>Father's Name:</td>
+                        <td><input type="text" name="n"></td>
+                    </tr>
+                    <tr>
+                        <td>Date Of Birth:</td>
+                        <td><input type="date" name="d"></td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td><input type="text" name="txt"></td>
+                    </tr>
+                    <tr>
+                        <td>Sex:</td>
+                        <td>
+                            <input type="radio" name="g" value="male">Male
+                            <input type="radio" name="g" value="female">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Relationship Status:</td>
+                        <td>
+                            <input type="radio" name="g" value="Married">married
+                            <input type="radio" name="g" value="Unmarried">Unmarried
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Qualification:</td>
+                        <td>
+                            <select type="select" name="se">   
+                                <option diable="" selected="">--select--</option>
+                                <option>BBA</option>
+                                <option>MBA</option>
+                                <option>B.Tech</option>
+                            </select>    
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hobbies:</td>
+                        <td> 
+                            <input type="radio" name="g" value="dance">dance
+                            <input type="radio" name="g" value="dance">Music
+                            <input type="radio" name="g" value="dance">reading
+                            <input type="radio" name="g" value="dance">Gaming
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Past work
+                            Experiances:</td>
+                        <td><textarea style="width: 265px; height: 56px;"></textarea></td>   
+                    </tr>
+
+                    <tr>
+                     <td colspan="2"><center><button type="button">Submit</button></center>
+                    </td>
+                    </tr>
+                    
+                     
+                    </tbody></table>
+                    </center>
+                    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+            
+             
+        <!-- Co--></body></html>

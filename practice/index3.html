@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <!--For video-->
+        <video width="200px" controls loop autoplay muted >
+            <source type="video/mp4"src="Song.mp4.mp4">
+        </video>
+        
+        <!---For Audio-->
+        <audio width="200px" controls loop autoplay muted >
+            <source type="audio/mp3" src="data.mp4.mp4">
+        </audio>
+
+        <!--Youtube-->
+        <iframe src="https://www.youtube.com/embed/62rNKLPBffc" height="200px" width="300px"></iframe>
+        <iframe src="https://www.youtube.com/embed/62rNKLPBffc" height="200px" width="300px" allowfullscreen></iframe>
+
+        <!--google map
+        (1)maps.goole.com
+        (2)type your address
+        (3)go to menu
+        (4)click share or embed map
+        (5)click on embed map and copy the code and VS Code-->
+
+        <!---Geomatry
+          SVG=>Tag based(Scalevel vector Graphics)
+        Canvas=> Javascript based work -->
+        <svg height="400px" width="500px" style="border:solid;">
+            <!--Circle-->
+            <circle r="70px" cx="250px" cy="200px" stroke-width="3px" stroke="blue" fill="orange"></circle>
+            <!--Rectangle-->
+            <rect x="50px" y="100px" height="200px" width="100px" stroke-width="3px" stroke="blue" fill="orange" ></rect>
+            <!--Ellipse-->
+            <ellipse rx="100px" ry="60px" cx="250px" cy="200px" stroke-width="3px" stroke="blue" fill="orange"></ellipse>
+            <!--Line-->
+            <line x1="0px" y1="0px" x2="500px" y2="400px"  stroke-width="3px" stroke="blue" fill="blue"></line>
+            <line x1="500px" y1="0px" x2="0px" y2="400px"  stroke-width="3px" stroke="blue" fill="blue"></line>
+
+            <!--polygon-->
+            <polygon points="250,20 50,300 450,300 280,380" stroke-width="3px" stroke="blue" fill="yellow"></polygon>
+            <polyline points="750,80 150,900 480,400 380,280" stroke-width="3px" stroke="blue" fill="yellow"></polyline>
+
+            <!---Text-->
+            <text x="200px" y="100px">hello users</text>
+        </svg>
+    </form>
+</body>
+</html>
